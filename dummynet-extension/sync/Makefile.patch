@@ -1,0 +1,10 @@
+--- a/Makefile Wed Nov 21 21:42:45 2012
++++ b/Makefile Tue Dec 11 06:33:33 2012
+@@ -8,6 +8,7 @@
+ SRCS+= ip_dn_glue.c ip_dn_io.c
+ SRCS+= dn_heap.c dn_sched_fifo.c dn_sched_qfq.c dn_sched_rr.c dn_sched_wf2q.c
+ SRCS+= dn_sched_prio.c
++SRCS+= dn_sched_reorder.c
+ SRCS+=	opt_inet6.h
+ 
+ .if !defined(KERNBUILDDIR)
